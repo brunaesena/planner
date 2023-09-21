@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Frank Ruhl Libre', serif;
+    margin-left: 5vh; 
+    
+}
+
+body {
+    background-image: url(./assets/purplePastelWallpaper.jpeg);
+    background-size: cover;
+}
+
+section {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.semana {
+    border-left: 1px solid gray;
+    width: 14%;
+    padding: 5px;
+    background-color: #e4ddf2;
+}
+.inputTextTarefa {
+    background-color: #e4ddf2;
+    padding: 4px;
+    border: 1px solid #e4ddf2; 
+    border-radius: 15px;
+}
+.diasSemana{
+        padding: 4px; 
+        font-size: 13px; 
+        border: 1px solid #e4ddf2; 
+        border-radius: 5px; 
+        width: 200px;  
+        background-color: #e4ddf2;
+        color: #230a0b
+}
+.diasSemana option {
+    background-color: #e4ddf2;
+    color: #230a0b; 
+    padding: 5px; 
+}
+.diasSemana:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+}
+label{
+    color: #230a0b;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.btn{
+    font-family: 'Frank Ruhl Libre', serif;
+    border: 1px solid #e4ddf2; 
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 4px;
+}
+ .semana h3{
+    border-bottom: 1px solid #230a0b;
+    margin: 0px;
+}
+header label {
+    border-bottom: 1px solid #230a0b;
+    color: #e4ddf2;
+    font-size: 20px;
+    
+}
